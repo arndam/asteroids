@@ -1,0 +1,13 @@
+# Python virtual environment
+venv/
+ENV/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Project-specific files
+prompts.txt
+highscore.txt 
