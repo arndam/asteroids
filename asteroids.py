@@ -3,7 +3,11 @@
 Asteroids Game
 A Python implementation of the classic Atari Asteroids game from 1979.
 
-Copyright © 2023 Arne Damvin. All rights reserved.
+Copyright © 2025 Arne Damvin. All rights reserved.
+
+This program is free software: you can redistribute it and/or modify it under the terms of the 
+GNU General Public License as published by the Free Software Foundation, either version 3 of the License, 
+or (at your option) any later version.
 """
 import math
 import random
