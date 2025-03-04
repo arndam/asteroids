@@ -108,8 +108,9 @@ class Ship(GameObject):
         ]
     
     def update(self):
-        # Apply rotation to direction vector
-        self.direction = UP.rotate(-self.rotation)
+        # Apply rotation to direction vector - FIX: correctly set direction based on rotation
+        angle_rad = math.radians(self.rotation)
+        self.direction = Vector2(math.sin(angle_rad), -math.cos(angle_rad))
         
         # Apply thrust if key is held
         if self.thrusting:
